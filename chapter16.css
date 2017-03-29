@@ -1,62 +1,123 @@
 .chapter8 {
-    color: white;
-    background-color: #98da4b;
+    color: black;
     font-size: 46px;
     text-align: center;
     margin-top: 27px;
     font-family: verdana;
+    text-shadow: 1px 3px 0 yellowgreen;
 }
-#center {
+hr{
+	border: 1px solid black;
+}
+.eyecatch{
+	background: url('bg2.jpg') no-repeat;
+	background-size: cover;
+	height: 400px;
+}
+ul#menu{
+    /* padding: 0; */
+    /* margin: 0; */
+    /* list-style-type: none; */
+    font-size: 0;
     text-align: center;
-    font-size: 35px;
-    font-weight: bold;
-    font-family: verdana;
+    padding: 10px;
+    background-color: yellowgreen;
+    opacity: 0.5;
 }
-.cheezzy{
-	font-size: 23px;
-    font-family: verdana;
-    font-weight: bold;
+ul#menu > li{
+	display: inline-block;
 }
-.text{
-    font-family: verdana;
-    line-height: 25px;
+ul#menu > li > a{
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 37px;
+    padding: 18px;
+    border-right: 1px solid black;
 }
-.height{
-    line-height: 25px;
-    font-family: verdana;
-}
-pre.text2 {
-    background-color: #f1f0f0;
-    padding: 20px;
-    border-radius: 9px;
-    text-align: center;
-    width: 100%;
-    font-family: verdana;
-}
-.about-text fieldset{
-   	background-color: #f1f0f0;
-}
-input#normal2 {
-    margin: 0 7px;
-}
-h2.text4 {
-    font-family: verdana;
-    line-height: 25px;
-}
-tr.text5 {
-    font-family: verdana;
-    line-height: 25px;
-}
-input {
-    margin: 0 7px;
-}
-tr,th td {
-    height: 34px;
-}
-table, td {
-    height: 70px;
+body{
+	text-align: center;
 }
 
-div{
-	border-top: orange 4px dotted;
+.cheezzy{
+	font-size: 40px;
+	margin-left: -766px;
+	/*padding-left: 70px;
+	padding-top: 50px;*/
+}
+.me{
+	margin-bottom: 30px;
+	display: inline-block;
+	position: relative;
+	margin-left: -766px;
+}
+.myname{
+    font-size: 21px;
+    display: inline-block;
+    padding: 15px 47px 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: solid grey;
+    border-radius: 10px;
+    position: absolute;
+}
+.myname:first-letter{
+	font-size: 50px;
+	color: yellowgreen;
+}
+.achievements{
+	font-size: 30px;
+	background: yellowgreen;
+	opacity: 0.8;
+	border-radius: 10px;
+	display: inline-block;
+	padding: 30px 30px 30px;
+}
+p.here{
+	text-align: center;
+}
+.list{
+	font-size: 30px;
+	background: yellowgreen;
+	opacity: 0.8;
+	border-radius: 10px;
+	display: inline-block;
+	padding: 30px 30px 30px;
+}
+#list2{
+	overflow: hidden;
+}
+li {
+    text-align: left;
+}
+table {
+    /* margin-left: 33.33%; */
+    margin: 0px 125px;
+}
+#table{
+	color: green;
+	border: solid grey;
+	border-width: 1px;
+	border-collapse: collapse;
+	text-align: center;
+}
+.elementary {
+    padding: 15px 68px 15px;
+}
+.elementaries{
+	padding: 10px 5px 10px;
+}
+.table1{
+	background-color: green;
+	color: white;
+}
+.table2{
+	background-color: yellowgreen;
+	color: black;
+}
+.education{
+	text-align: center;
+	padding: 50px;
+}*/
+h2.audio {
+    padding-top: 50px;
 }
