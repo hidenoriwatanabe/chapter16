@@ -32,28 +32,45 @@ ul#menu > li > a{
     text-decoration: none;
     line-height: 37px;
     padding: 18px;
-    border-right: 1px solid black;
+}
+#menu > li:nth-child(1) > a, #menu > li:nth-child(2) > a, #menu > li:nth-child(3) > a, #menu > li:nth-child(4) > a{
+	border-right: 1px solid #000;
+}
+p.text {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 46px;
+    margin-top: 70px;
+    color: rgba(154, 205, 50, 0.8);
+    font-weight: bold;
+    text-align: center;
+}
+.chee {
+	width: 866px;
+    margin: 0 auto;
 }
 body{
-	text-align: center;
+	margin: 0;
 }
 
 .cheezzy{
 	font-size: 40px;
-	margin-left: -766px;
+	margin-left: 34px;
 	/*padding-left: 70px;
 	padding-top: 50px;*/
+}
+img.me {
+    text-align: center;
+    margin-left: 34PX;
 }
 .me{
 	margin-bottom: 30px;
 	display: inline-block;
 	position: relative;
-	margin-left: -766px;
 }
 .myname{
-    font-size: 21px;
+    font-size: 17px;
     display: inline-block;
-    padding: 15px 47px 15px;
+    padding: 2px 37px 2px;
     margin-left: 50px;
     margin-right: 50px;
     border: solid grey;
@@ -65,26 +82,32 @@ body{
 	color: yellowgreen;
 }
 .achievements{
-	font-size: 30px;
-	background: yellowgreen;
-	opacity: 0.8;
-	border-radius: 10px;
-	display: inline-block;
-	padding: 30px 30px 30px;
+	font-size: 23px;
+    background: yellowgreen;
+    opacity: 0.8;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
 }
 p.here{
 	text-align: center;
 }
 .list{
-	font-size: 30px;
-	background: yellowgreen;
-	opacity: 0.8;
-	border-radius: 10px;
-	display: inline-block;
-	padding: 30px 30px 30px;
+	font-size: 23px;
+    background: yellowgreen;
+    opacity: 0.8;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
 }
-#list2{
-	overflow: hidden;
+#list2 {
+    /* overflow: hidden; */
+    /* width: 792px; */
+    margin: 0 auto;
+    display: block;
+    /* padding-right: 49px; */
+    /* margin-right: 66px; */
+    text-align: center;
 }
 li {
     text-align: left;
@@ -101,10 +124,10 @@ table {
 	text-align: center;
 }
 .elementary {
-    padding: 15px 68px 15px;
+    padding: 5px 68px 5px;
 }
 .elementaries{
-	padding: 10px 5px 10px;
+    padding: 20px 68px 20px;
 }
 .table1{
 	background-color: green;
@@ -117,6 +140,8 @@ table {
 .education{
 	text-align: center;
 	padding: 50px;
+	
+	
 }*/
 h2.audio {
     padding-top: 50px;
