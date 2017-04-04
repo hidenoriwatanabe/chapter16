@@ -21,8 +21,7 @@ ul#menu{
     font-size: 0;
     text-align: center;
     padding: 10px;
-    background-color: yellowgreen;
-    opacity: 0.5;
+    background-color: rgba(127,168,70, .8);
 }
 ul#menu > li{
 	display: inline-block;
@@ -82,8 +81,8 @@ img.me {
 	color: yellowgreen;
 }
 .achievements{
-	font-size: 23px;
-    background: yellowgreen;
+	font-size: 22px;
+    background: #c7d9ab;
     opacity: 0.8;
     border-radius: 10px;
     display: inline-block;
@@ -94,7 +93,7 @@ p.here{
 }
 .list{
 	font-size: 23px;
-    background: yellowgreen;
+	background: #c7d9ab;
     opacity: 0.8;
     border-radius: 10px;
     display: inline-block;
@@ -115,6 +114,12 @@ li {
 table {
     /* margin-left: 33.33%; */
     margin: 0px 125px;
+	border-spacing: 0;
+	border: 1px solid #000
+}
+#table0 > table > tbody > tr.table2 > td:nth-child(1),#table0 > table > tbody > tr.table2 > td:nth-child(2),#table0 > table > tbody > tr.table2 > td:nth-child(3),#table0 > table > tbody > tr.table2 > td:nth-child(4),
+#table0 > table > tbody > tr.table1 > td:nth-child(1),#table0 > table > tbody > tr.table1 > td:nth-child(2),#table0 > table > tbody > tr.table1 > td:nth-child(3),#table0 > table > tbody > tr.table1 > td:nth-child(4){
+	    border-right: #7aae2a 1px solid;
 }
 #table{
 	color: green;
@@ -130,11 +135,11 @@ table {
     padding: 20px 68px 20px;
 }
 .table1{
-	background-color: green;
+	background-color: #89b840;
 	color: white;
 }
 .table2{
-	background-color: yellowgreen;
+	background-color: #d7f3aa;
 	color: black;
 }
 .education{
@@ -145,4 +150,35 @@ table {
 }*/
 h2.audio {
     padding-top: 50px;
+    text-align: center;
+}
+#list2 > div.achievements > p > a,#list2 > div.list > p > a{
+	font-weight: bold;
+    color: #446f01;
+}
+#menu > li > a{
+	color: #45663a;
+}
+hr{
+	    border: 1px solid #7aae2a;
+}
+body > video,body > audio{
+    display: block;
+    margin: 0 auto;
+	
+}
+body > h2.video,body > h2.audio,body > p.audio,{
+	text-align: center;
+}
+body > h2.video{
+		text-align: center;
+}
+body > p:nth-child(12){
+	text-align: center;
+}
+body > h2.audio{
+	text-align: center;
+}
+body > p.audio{
+	text-align: center;
 }
